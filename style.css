@@ -9,7 +9,7 @@
     border-style: solid;
     border-width: 2px;
     padding: 15px;
-    margin: 25px 5px 5px 5px;
+    margin: 10px 5px 5px 5px;
 }
 .center {
     text-align: center;
@@ -44,4 +44,55 @@ a:hover {
 }
 a {
     color: darkred;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+main {
+    padding-bottom: 2.5rem;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background: lightgray;
+}
+.copyright {
+    float: right;
+    color: darkred;
+}
+.centerpiece h1 {
+    font-size: 50px;
+}
+.toplogo, .toptitle, .toplogin {
+    display: inline-block;
+}
+.topcontainer {
+    clear: both;
+}
+.toplogo {
+    float: left;
+}
+.toptitle {
+    margin-left: 20px;
+}
+.toptitle h1 {
+    font-size: 35px;
+}
+.search {
+    text-align: center;
+}
+.searchbar {
+    width: 250px;
+    height: 30px;
+}
+.button {
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+    padding: 2px;
+    position: relative;
+    top: 3px;
 }
