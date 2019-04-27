@@ -43,7 +43,7 @@ a:hover {
     color: gray;
 }
 a {
-    color: darkred;
+    color: #f55820;
 }
 #page-container {
     position: relative;
@@ -61,7 +61,7 @@ footer {
 }
 .copyright {
     float: right;
-    color: darkred;
+    color: #f55820;
 }
 .centerpiece h1 {
     font-size: 40px;
@@ -129,7 +129,7 @@ footer {
     color: black;
 }
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #f55820;
     color: white;
     transform: rotateY(180deg);
 }
