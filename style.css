@@ -36,7 +36,7 @@
     text-align: center;
 }
 .logo {
-    width: 100px;
+    width: 300px;
     height: auto;
 }
 a:hover {
@@ -64,7 +64,7 @@ footer {
     color: darkred;
 }
 .centerpiece h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 .toplogo, .toptitle, .toplogin {
     display: inline-block;
