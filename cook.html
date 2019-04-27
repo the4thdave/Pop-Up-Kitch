@@ -1,1 +1,144 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pop-Up Kitch - Home</title>
+    <link rel="stylesheet" type="text/css" href="cook.css"/>
+</head>
+<body id="index">
+<header>
+    <div class="logo">
+        <h1>
+            <a href="index.html" title="Home">
+                <img src="kitch_logo.png" class="logo">
+            </a>
+        </h1>
+    </div>
+    <div>
+        <h3>
+            <a href="" class="login link">Log-in</a>
+        </h3>
+    </div>
+</header>
+<main class="main">
+    <div class="container">
+        <form class = "form" action="/">
+            <div class="inside_form">
+                <div>
+                    <div class="input">
+                        <label>Meal Title</label><br>
+                        <input name="meal_title" type="text" class="input"></input>
+                    </div>
+
+                    <div class="textarea">
+                        <label>Meal Description</label><br>
+                        <textarea name="meal_description" id="mean_descteiption" cols="20" rows="5"></textarea>
+                    </div>
+
+                    <div>
+                        <label>Image</label><br>
+                        <input type="file" name="pic" accept="image/*">
+                    </div>
+
+                    <div class="textarea">
+                        <label>Ingredients</label><br>
+                        <textarea name="ingredients" type="text"></textarea>
+                    </div>
+
+                    <h3>Days Open</h3>
+                    <div>
+                        <input  name="monday" type="checkbox">Monday</input>
+                    </div>
+                    <div>
+                    <input name="tuesday" type="checkbox">  <label>Tuesday</label>
+                    </div>
+                    <div>
+                        <input name="wednesday" type="checkbox">    <label>Wednesday</label>
+                    </div>
+                    <div>
+                        <input name="thursday" type="checkbox"> <label>Thursday</label>
+                    </div>
+                    <div>
+                        <input name="friday" type="checkbox">   <label>Friday</label>
+                    </div>
+                    <div>
+                        <input name="saturday" type="checkbox"> <label>Saturday</label>
+                    </div>
+                    <div>
+                        <input name="sunday" type="checkbox">   <label>Friday</label>
+                    </div>
+                    
+                    <h3>Meal Time</h3>
+                    <div class="input">
+                        <label for="from">From:</label>
+                        <input name="from" type="time" value="07:00"></input>
+                        <label for="to">To:</label>
+                        <input name="to" type="time" value="21:30"></input>
+                    </div><br><br>
+
+                </div>
+
+            <div>
+                <div class="input">
+                    <label>Submit Order By</label><br>
+                    <input name="submit_by" type="number" >
+                </div>
+
+                <div class="input">
+                    <label>Customer Limit</label><br>
+                    <input name="customer_limit" type="number">
+                </div>
+
+                <div class="input">
+                    <label for="price">Price</label><br>
+                    <input name="price" type="number">
+                </div>
+            
+                <h3>Cuisine Type</h3>
+                <div>
+                    <input name="cuisine" type="radio" vaule = "jamaican"/> <label for="jamaican">Jamaican</label>
+                </div>
+                <div>
+                    <input name="cuisine" type="radio" vaule = "thai"/> <label for="thai">Thai</label>
+                </div>
+                <div>
+                    <input name="cuisine" type="radio" vaule = "hatian"/> <label for="hatian">Hatian</label>
+                </div>
+                <div>
+                    <input name="cuisine" type="radio" vaule = "italian"/> <label for="italian">Italian</label>
+                </div>
+                <div>
+                    <input name="cuisine" type="radio" vaule = "spanish"/> <label for="spanish">Spanish</label>
+                </div>
+                <div>
+                    <input name="cuisine" type="radio" vaule = "shouthern"/> <label for="shouthern">Southerm</label>
+                </div>
+                <div>
+                    <input name="cuisine" type="radio" vaule = "ehtiopian"/> <label for="ethiopian">Ethipoian</label>
+                </div>
+                <div>
+                    <input name="cuisine" type="radio" vaule = "chinese"/> <label for="chinese">Chinese</label>
+                </div>
+                <br>
+                <div class="textarea">
+                    <label for="address">Address</label><br>
+                    <textarea name= "address" type="text"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="input button">
+                <input name="submit" type="submit">
+            </div>
+        </form>
+    </div>
+
+    </div>
+</main>
+<footer>
+    <div class="about">
+        <a href="">About Us</a>
+    </div>
+</footer>
+</body>
+</html>
